@@ -1,0 +1,9 @@
+# using list comprehension
+def Remove(tuples):
+	tuples = [t for t in tuples if t]
+	return tuples
+
+# Driver Code
+tuples = [(), ('ram','15','8'), (), ('akhil', 'sita'),
+		('manu', 'venu', '45'), ('',''),()]
+print(Remove(tuples))
